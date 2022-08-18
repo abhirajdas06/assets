@@ -4,4 +4,5 @@ from dashboard import views
 
 urlpatterns = [
     path('',views.index,name="Home"),
+    path('profile/', views.profile, name="Profile")
 ]
